@@ -1,0 +1,10 @@
+{ 
+	"forwardPorts": [33434, 33435, 33436, 33437, 33438, 33439],
+  "runArgs": ["--device=/dev/net/tun"],
+  "postStartCommand": "./scripts/on-reload.sh",
+  "features": {
+    "ghcr.io/tailscale/codespace/tailscale": {}
+	}
+
+
+}
