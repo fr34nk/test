@@ -14,4 +14,4 @@ jobs:
       - name: Install dependencies
         run: pip install requests beautifulsoup4 pandas
       - name: Run script
-        run: python your_script.py
+        run: python main.py
