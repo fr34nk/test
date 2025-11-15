@@ -4,8 +4,8 @@
   "description": "test",
   "main": "index.js",
   "scripts": {
-	"build": "npm install && npm start",
-	"start": "node src/index.js",
+    "build": "npm install && npm start",
+    "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/fr34nk/test/issues"
   },
-  "homepage": "https://github.com/fr34nk/test#readme"
+  "homepage": "https://github.com/fr34nk/test#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1",
+    "socketio": "^1.0.0",
+    "sync-request": "^6.1.0"
+  }
 }
