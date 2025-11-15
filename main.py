@@ -11,7 +11,3 @@ print(pretty)
 
 headers = response.headers
 print(headers)
-
-
-
-
