@@ -1,4 +1,4 @@
-name: Run every minute
+name: Run every 5 minute
 on:
  schedule:
     - cron: '5 * * * *'
