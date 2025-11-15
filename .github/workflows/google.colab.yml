@@ -1,7 +1,7 @@
-name: Run Colab Script
-on:
-  schedule:
-    - cron: '* * * * *'  # runs every hour
+# name: Run Colab Script
+# on:
+#  schedule:
+#     - cron: '* * * * *'  # runs every hour
 on: workflow_dispatch
 jobs:
   run-notebook:
